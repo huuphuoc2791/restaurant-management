@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:restaurant_management/insta_home.dart';
+import 'package:restaurant_management/rm_home.dart';
 
-void main() => runApp(new MyApp());
+void main() => runApp(new AppMain());
 
-class MyApp extends StatelessWidget {
+class AppMain extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
           primaryTextTheme: TextTheme(
               title: TextStyle(color: Colors.black, fontFamily: "Aveny")),
           textTheme: TextTheme(title: TextStyle(color: Colors.black))),
-      home: new InstaHome(),
+      home: new RMHome(),
     );
   }
 }

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:restaurant_management/insta_stories.dart';
+import 'package:restaurant_management/rm_stories.dart';
 
-class InstaList extends StatelessWidget {
+class RMList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var deviceSize = MediaQuery.of(context).size;
@@ -10,7 +10,7 @@ class InstaList extends StatelessWidget {
       itemCount: 5,
       itemBuilder: (context, index) => index == 0
           ? new SizedBox(
-              child: new InstaStories(),
+              child: new RMStories(),
               height: deviceSize.height * 0.15,
             )
           : Column(

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:restaurant_management/insta_body.dart';
+import 'package:restaurant_management/rm_body.dart';
 
-class InstaHome extends StatelessWidget {
+class RMHome extends StatelessWidget {
   final topBar = new AppBar(
     backgroundColor: new Color(0xfff8faf8),
     brightness: Brightness.light,
@@ -25,7 +25,7 @@ class InstaHome extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Scaffold(
         appBar: topBar,
-        body: new InstaBody(),
+        body: new RMBody(),
         bottomNavigationBar: new Container(
           color: Colors.white,
           height: 80.0,
