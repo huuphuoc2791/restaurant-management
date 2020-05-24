@@ -9,7 +9,7 @@ build/
 .flutter-plugins
 restaurant-management.iml
 pubspec.lock
-.gradle/4.9/fileChanges/last-build.bin
-.gradle/4.9/fileHashes/fileHashes.bin
-.gradle/4.9/fileHashes/fileHashes.lock
+.gradle/*/fileChanges/last-build.bin
+.gradle/*/fileHashes/fileHashes.bin
+.gradle/*/fileHashes/fileHashes.lock
 .gradle/vcsWorkingDirs/gc.properties
