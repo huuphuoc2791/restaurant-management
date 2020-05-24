@@ -15,7 +15,7 @@
     <application
         android:name="io.flutter.app.FlutterApplication"
         android:label="Restaurant Management"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/rm_icon">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
