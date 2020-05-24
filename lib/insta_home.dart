@@ -28,7 +28,7 @@ class InstaHome extends StatelessWidget {
         body: new InstaBody(),
         bottomNavigationBar: new Container(
           color: Colors.white,
-          height: 60.0,
+          height: 80.0,
           alignment: Alignment.center,
           child: new BottomAppBar(
             child: new Row(
@@ -39,12 +39,14 @@ class InstaHome extends StatelessWidget {
                   icon: Icon(
                     Icons.home,
                   ),
+                  iconSize: 36,
                   onPressed: () {},
                 ),
                 new IconButton(
                   icon: Icon(
                     Icons.search,
                   ),
+                  iconSize: 36,
                   onPressed: null,
                 ),
                 new IconButton(
@@ -52,6 +54,7 @@ class InstaHome extends StatelessWidget {
                     Icons.add_box,
                     color: Colors.lightBlueAccent,
                   ),
+                  iconSize: 36,
                   onPressed: null,
                 ),
                 new IconButton(
@@ -59,12 +62,14 @@ class InstaHome extends StatelessWidget {
                     Icons.favorite,
                     color: Colors.pinkAccent,
                   ),
+                  iconSize: 36,
                   onPressed: null,
                 ),
                 new IconButton(
                   icon: Icon(
                     Icons.info,
                   ),
+                  iconSize: 36,
                   onPressed: null,
                 ),
               ],
