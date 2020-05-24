@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Flutter-Instagram-UI.iml" filepath="$PROJECT_DIR$/.idea/Flutter-Instagram-UI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/restaurant-management.iml" filepath="$PROJECT_DIR$/.idea/restaurant-management.iml" />
     </modules>
   </component>
 </project>
