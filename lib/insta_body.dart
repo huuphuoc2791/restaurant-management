@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_insta_clone/insta_list.dart';
-import 'package:flutter_insta_clone/insta_stories.dart';
+import 'package:restaurant_management/insta_list.dart';
+import 'package:restaurant_management/insta_stories.dart';
 
 class InstaBody extends StatelessWidget {
   @override

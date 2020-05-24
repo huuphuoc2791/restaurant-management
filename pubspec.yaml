@@ -1,4 +1,4 @@
-name: restaurant-management
+name: restaurant_management
 description: A new Flutter app project about management of 1 or many restaurants.
 
 dependencies:

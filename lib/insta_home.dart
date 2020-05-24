@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_insta_clone/insta_body.dart';
+import 'package:restaurant_management/insta_body.dart';
 
 class InstaHome extends StatelessWidget {
   final topBar = new AppBar(

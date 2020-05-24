@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_insta_clone/insta_home.dart';
+import 'package:restaurant_management/insta_home.dart';
 
 void main() => runApp(new MyApp());
 
