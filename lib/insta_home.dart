@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_insta_clone/insta_body.dart';
+import 'package:restaurant_management/insta_body.dart';
 
 class InstaHome extends StatelessWidget {
   final topBar = new AppBar(
@@ -28,7 +28,7 @@ class InstaHome extends StatelessWidget {
         body: new InstaBody(),
         bottomNavigationBar: new Container(
           color: Colors.white,
-          height: 80.0,
+          height: 56.0,
           alignment: Alignment.center,
           child: new BottomAppBar(
             child: new Row(
