@@ -1,4 +1,4 @@
-package com.example.flutterinstaclone;
+package com.vn.restaurantmanagement;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
